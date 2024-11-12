@@ -1,0 +1,774 @@
+*{
+    background-color: lightcyan;
+}
+.header{
+    display: flex;
+    width: 900px;
+    height: 60px;
+    position: fixed;
+    background-color:yellow;
+    margin-left: 300px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.header p{
+    background-color: black;
+    color: yellow;
+    font-size: x-large;
+    position: relative;
+    padding: 15px;
+    height: 20px;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 60px;
+    border-radius: 10px;
+}
+.header img{
+    position: relative;
+    left: 30px;
+    top: 4px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+.ani img{
+    position: absolute;
+    top: 700px;
+    width: 600px;
+    background: none;
+}
+.ani img{
+    animation-name: rocket;
+    animation-duration:3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes rocket{
+    0%{
+        rotate:45deg;
+    }
+    50%{
+        translate: 1100px;
+    }
+    100%{
+        rotate: -45deg;
+    }
+}
+.h1{
+    animation-name: way;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes way {
+    0%{
+         transform: translateX(50px);
+        }
+}
+.backg{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(27, 94,201);
+    width: 1450px;
+    height: 450px;
+    margin-left: 15px;
+    margin-top: 220px;
+    border: 10px solid rgb(27, 94, 201);
+    border-radius: 10px;
+}
+.h1 h1{
+    background-color: black;
+    font-size: 35px;
+    padding: 30px;
+}
+.h1{
+    background-color: rgb(27, 94,201);
+    border-radius: 20px;
+    color: yellow;
+    width: fit-content;
+}
+strong{
+    text-align: center;
+    word-spacing: 20px;
+    margin-top: 15px;
+    font-size: larger;
+    margin-left: 20px;
+    background-color: yellow;
+}
+.header button{
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: yellow;
+    height: 45px;
+    width: 150px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.headline{
+    position: relative;
+    top: 120px;
+    text-align: center;
+    font-size: xx-large;    
+}
+.headline button{
+    background-color: black;
+    color: white;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2);
+}
+.grid1{
+    font-size: larger;
+    margin-top: 200px;
+    background-color: cadetblue;
+    width: 650px;
+    margin-left: 180px;
+    border-radius: 20px;
+}
+.grid1 h2{
+    position: absolute;
+    top: 1800px;
+    left: 220px;
+    background-color: cadetblue;
+    font-size: xx-large;
+}
+.grid1 p{
+    position: absolute;
+    top: 1880px;
+    left: 220px;
+    background-color: cadetblue;
+}
+.grid1 img{
+    background-color: cadetblue;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.grid2{
+    width: 450px;
+    background-color: yellow;
+    margin-left: 30px;
+    margin-top: 200px;
+    border-radius: 20px;
+    font-size: larger;
+}
+.grid2 img{
+    background-color: yellow;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 250px;
+    height: 200px;
+}
+.grid2 h2{
+    position: absolute;
+    top: 1620px;
+    left: 970px;
+    font-size: xx-large;
+    background-color: yellow;
+}
+.grid2 p{
+    position: absolute;
+    top: 1680px;
+    left: 920px;
+    background-color: yellow;
+    text-align: center;
+}
+.grid3{
+    width: 450px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 180px;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+}
+.grid3 img{
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.grid3 h2{
+    background-color: yellow;
+    font-size: xx-large;
+}
+.grid3 p{
+    background-color: yellow;
+}
+.grid4{
+    position: relative;
+    right: 170px;
+    width: 650px;
+    background-color:cadetblue;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+    height: 500px;
+}
+.grid4 img{
+    width: 600px;
+    margin-top: 220px;
+    background-color: cadetblue;
+}
+.grid4 h2{
+    background: none;
+    font-size: xx-large;
+    position: relative;
+    bottom: 480px;
+    right: 120px;
+}
+.grid4 p{
+    background:none;
+    position: relative;
+    bottom: 480px;
+    right: 120px;
+}
+.headline3{
+    text-align: center;
+    font-size: xx-large;
+}
+.box{
+    width: 1100px;
+    margin-left: 200px;
+    display: flex;
+    border-radius: 20px;
+    background-color: lightgreen;
+    border: 5px solid lightgreen;
+    text-align: center;
+    gap: 50px;
+}
+.box1{
+    margin-left: 50px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+.box1 img{
+    background-color: yellow;
+    border-radius: 20px;
+}
+.box2{
+    width: 300px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+.box2 img{
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.box1 h2{
+    background-color: lightgreen;
+}
+.box1 p{
+    background-color: lightgreen;
+}
+.box2 h2{
+    background-color: lightgreen;
+}
+.box2 p{
+    background-color: lightgreen;
+}
+.box3 h2{
+    background-color: lightgreen;
+}
+.box3 p{
+    background-color: lightgreen;
+}
+.box3{
+    width: 300px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+.box3 img{
+    background-color: yellow;
+    border-radius: 20px;
+}
+.text{
+    text-align: center;
+    margin-top: 80px;
+    font-size: larger;
+}
+.text h2{
+    font-size: 60px;
+}
+.text button{
+    background-color: black;
+    color: white;
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.comee{
+    background-color: lightgreen;
+    width: 1100px;
+    height: 500px;
+    margin-left: 200px;
+    border-radius: 20px;
+    font-size: x-large;
+}
+.comee img{
+    position: relative;
+    left: 650px;
+    bottom: 20px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+.comee h1{
+    width: 50px;
+    background-color: yellow;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.comee h2{
+    width: 400px;
+    background-color:lightgreen;
+    position: relative;
+    bottom: 250px;
+    margin-left: 20px;
+}
+.comee p{
+    width:600px ;
+    background-color: lightgreen;
+    position: relative;
+    bottom: 250px;
+    margin-left: 20px;
+}
+.comee2{
+    background-color: yellow;
+    width: 1100px;
+    height: 500px;
+    margin-left: 200px;
+    border-radius: 20px;
+    font-size: x-large;
+}
+.comee2 img{
+    position: relative;
+    left: 650px;
+    bottom: 20px;
+    background-color: teal;
+    border-radius: 20px;
+}
+.comee2 h1{
+    width: 50px;
+    background-color: black;
+    color: yellow;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.comee2 h2{
+    width: 400px;
+    background-color:yellow;
+    position: relative;
+    bottom: 250px;
+    margin-left: 20px;
+}
+.comee2 p{
+    width:600px ;
+    background-color: yellow;
+    position: relative;
+    bottom: 250px;
+    margin-left: 20px;
+}
+.comee3{
+    background-color:lightgreen;
+    width: 1100px;
+    height: 500px;
+    margin-left: 200px;
+    border-radius: 20px;
+    font-size: x-large;
+}
+.comee3 img{
+    position: relative;
+    left: 650px;
+    bottom: 20px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+.comee3 h1{
+    width: 50px;
+    background-color: yellow;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.comee3 h2{
+    width: 400px;
+    background-color:lightgreen;
+    position: relative;
+    bottom: 250px;
+    margin-left: 20px;
+}
+.comee3 p{
+    width:600px ;
+    background-color: lightgreen;
+    position: relative;
+    bottom: 250px;
+    margin-left: 20px;
+}
+.texte{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+}
+.coment1{
+    background-color: yellow;
+    width: 550px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+.coment1 h1{
+    background-color: yellow;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 200px;
+}
+.coment1 img{
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 20px;  
+}
+.coment1 p{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 500px;
+    font-size: x-large;
+    background-color: yellow;
+}
+.coment2{
+    background-color:lightpink;
+    width: 550px;
+    margin-left: 200px;
+    border-radius: 20px;
+    position: absolute;
+    top: 5410px;
+    left: 580px;
+}
+.coment2 h1{
+    background-color:lightpink;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 200px;
+}
+.coment2 img{
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 20px;  
+}
+.coment2 p{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 530px;
+    font-size: x-large;
+    background-color: lightpink;
+}
+.coment3{
+    background-color:lightpink;
+    width: 550px;
+    margin-left: 200px;
+    border-radius: 20px;    
+}
+.coment3 h1{
+    background-color:lightpink;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 300px;
+}
+.coment3 img{
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 20px;  
+}
+.coment3 p{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 500px;
+    font-size: x-large;
+    background-color: lightpink;
+}
+.coment4{
+    background-color:lightseagreen;
+    width: 550px;
+    margin-left: 200px;
+    border-radius: 20px;
+    position: absolute;
+    top: 5710px;
+    left: 580px;
+    
+}
+.coment4 h1{
+    background-color:lightseagreen;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 300px;
+}
+.coment4 img{
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 20px;  
+}
+.coment4 p{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 500px;
+    font-size: x-large;
+    background-color: lightseagreen;
+}
+.coment5{
+    background-color:lightseagreen;
+    width: 550px;
+    margin-left: 200px;
+    border-radius: 20px;  
+}
+.coment5 h1{
+    background-color:lightseagreen;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 300px;
+}
+.coment5 img{
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 20px;  
+}
+.coment5 p{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 520px;
+    font-size: x-large;
+    background-color: lightseagreen;
+}
+.coment6{
+    background-color:yellow;
+    width: 550px;
+    margin-left: 200px;
+    border-radius: 20px;
+    position: absolute;
+    top: 5970px;
+    left: 580px;
+    
+}
+.coment6 h1{
+    background-color:yellow;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 300px;
+}
+.coment6 img{
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 20px;  
+}
+.coment6 p{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 520px;
+    font-size: x-large;
+    background-color: yellow;
+}
+.coment7{
+    background-color:lightpink;
+    width: 550px;
+    margin-left: 200px;
+    border-radius: 20px;
+    position: absolute;
+    top: 6260px;
+    left: 580px;
+    
+}
+.coment7 h1{
+    background-color:lightpink;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 300px;
+}
+.coment7 img{
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 20px;  
+}
+.coment7 p{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 520px;
+    font-size: x-large;
+    background-color: lightpink;
+}
+.coment8{
+    background-color:yellow;
+    width: 550px;
+    margin-left: 200px;
+    border-radius: 20px;    
+}
+.coment8 h1{
+    background-color:yellow;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 300px;
+}
+.coment8 img{
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 20px;  
+}
+.coment8 p{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 520px;
+    font-size: x-large;
+    background-color: yellow;
+}
+.coment9{
+    background-color:lightseagreen;
+    width: 550px;
+    margin-left: 450px;
+    border-radius: 20px;    
+}
+.coment9 h1{
+    background-color:lightseagreen;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 300px;
+}
+.coment9 img{
+    border-radius: 30px;
+    position: relative;
+    top: 40px;
+    left: 20px;  
+}
+.coment9 p{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 520px;
+    font-size: x-large;
+    background-color: lightseagreen;
+}
+.foot{
+    display: flex;
+    position: absolute;
+    width: 1100px;
+    margin-left: 200px;
+    border-radius: 20px;
+    background-color: rgb(43, 49, 15);
+}
+.foot h1{
+    background-color: rgb(43, 49, 15);
+    padding-left: 50px;
+    border: 2px solid yellow;
+    height: fit-content;
+    color: yellow;
+    margin-top: 40px;
+}
+.foot h2{
+    background-color: rgb(43, 49, 15);
+    font-size: 60px;
+    color: aquamarine;
+    position: relative;
+    margin-top: 300px;
+    right: 240px;
+    margin-left: 20px;
+}
+.foot p{
+    background-color: rgb(43, 49, 15);
+    color: aquamarine;
+    position: relative;
+    right: 680px;
+    margin-top: 370px;
+    margin-left: 5px;
+}
+.logo{
+    position: relative;
+    top: 42px;
+    left: 45px;
+}
+.foot img{
+    border-radius: 20px;
+}
+.foot button{
+    position: absolute;
+    top: 410px;
+    left: 520px;
+    height: 30px;
+    width: 550px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.footer{
+    background-color: rgb(43, 49, 15);
+    height: 600px;
+    margin-top: 250px;
+}
+.footer h1{
+    margin-top: 270px;
+    background-color: rgb(43, 49, 15);
+    color: yellow;
+    border: 2px solid yellow;
+    width: fit-content;
+    padding-left: 50px;
+    margin-left: 220px;
+}
+.footer img{
+    position: relative;
+    top: 312px;
+    left: 224px;
+}
+.footer p{
+    background-color: rgb(43, 49, 15) ;
+    margin-left: 220px;
+    color: aquamarine;
+    font-size: large;
+}
+.str{
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    background-color: rgb(43, 49, 15) ;
+    color: aquamarine;
+    width: fit-content;
+}
